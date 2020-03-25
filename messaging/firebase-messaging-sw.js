@@ -1,4 +1,4 @@
-// Import and configure the Firebase SDK
+/* // Import and configure the Firebase SDK
 // These scripts are made available when the app is served or deployed on Firebase Hosting
 // If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup
 importScripts('/__/firebase/7.12.0/firebase-app.js');
@@ -6,10 +6,11 @@ importScripts('/__/firebase/7.12.0/firebase-messaging.js');
 importScripts('/__/firebase/init.js');
 
 const messaging = firebase.messaging();
-
+ */
 /**
  * Here is is the code snippet to initialize Firebase Messaging in the Service
  * Worker when your app is not hosted on Firebase Hosting.
+ * */
 
  // [START initialize_firebase_in_sw]
  // Give the service worker access to Firebase Messaging.
@@ -22,20 +23,21 @@ const messaging = firebase.messaging();
  // your app's Firebase config object.
  // https://firebase.google.com/docs/web/setup#config-object
  firebase.initializeApp({
-   apiKey: 'api-key',
-   authDomain: 'project-id.firebaseapp.com',
-   databaseURL: 'https://project-id.firebaseio.com',
-   projectId: 'project-id',
-   storageBucket: 'project-id.appspot.com',
-   messagingSenderId: 'sender-id',
-   appId: 'app-id',
-   measurementId: 'G-measurement-id',
- });
+  apiKey: "AIzaSyCMYoVyrt5dNoZ40guAiRiun95xD7Ha7dw",
+  authDomain: "cumulocity-push.firebaseapp.com",
+  databaseURL: "https://cumulocity-push.firebaseio.com",
+  projectId: "cumulocity-push",
+  storageBucket: "cumulocity-push.appspot.com",
+  messagingSenderId: "693306097574",
+  appId: "1:693306097574:web:a8b9119e3ccde7feaf1967",
+  measurementId: "G-MY27PHF64C"
+});
 
  // Retrieve an instance of Firebase Messaging so that it can handle background
  // messages.
  const messaging = firebase.messaging();
  // [END initialize_firebase_in_sw]
+ /*
  **/
 
 
