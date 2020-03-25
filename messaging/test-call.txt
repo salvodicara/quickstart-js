@@ -1,0 +1,9 @@
+curl -X POST -H "Authorization: key=AIzaSyAe8TDHPTnX0oJKfyE41TKt55xFkKD_BbI" -H "Content-Type: application/json" -d '{
+  "notification": {
+    "title": "Portugal vs. Denmark",
+    "body": "5 to 1",
+    "icon": "firebase-logo.png",
+    "click_action": "http://localhost:8081"
+  },
+  "to": "fqFoI3LZ6Y4YF0_epVhBZz:APA91bEdKyp-C6ee_EGII_rkUMQzRSth903KEAkodJaKkDxnBr7GgnzACuk-lcfYmVR-6o8ETssvIh5Ia4o2J4uOB-ydvyoyTii0dMszutiJjePRlBiiEqzysXvsJ83CA9ESJ9imo0o1"
+}' "https://fcm.googleapis.com/fcm/send"
