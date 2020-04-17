@@ -23,15 +23,15 @@ const messaging = firebase.messaging();
  // your app's Firebase config object.
  // https://firebase.google.com/docs/web/setup#config-object
  firebase.initializeApp({
-   apiKey: 'api-key',
-   authDomain: 'project-id.firebaseapp.com',
-   databaseURL: 'https://project-id.firebaseio.com',
-   projectId: 'project-id',
-   storageBucket: 'project-id.appspot.com',
-   messagingSenderId: 'sender-id',
-   appId: 'app-id',
-   measurementId: 'G-measurement-id',
- });
+  apiKey: "AIzaSyANAcBJt0rPfJJi0T2d-uOk2R3DEzehcAM",
+  authDomain: "cumulocity-sensor-app.firebaseapp.com",
+  databaseURL: "https://cumulocity-sensor-app.firebaseio.com",
+  projectId: "cumulocity-sensor-app",
+  storageBucket: "cumulocity-sensor-app.appspot.com",
+  messagingSenderId: "1095114119834",
+  appId: "1:1095114119834:web:0aadbed16313a044905d23",
+  measurementId: "G-7FHRZ5D7K5"
+  });
 
  // Retrieve an instance of Firebase Messaging so that it can handle background
  // messages.
